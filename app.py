@@ -5,39 +5,13 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # -----------------------------------------------------------------------
-# Page Configuration & Adaptive Light/Dark Theme Styling
+# Page Configuration
 # -----------------------------------------------------------------------
 st.set_page_config(
     page_title="CHRIST Campus Venue Analytics",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-st.markdown("""
-<style>
-    .block-container { padding-top: 1.25rem; padding-bottom: 2rem; }
-    div[data-testid="stMetric"] {
-        background-color: var(--secondary-background-color);
-        border: 1px solid rgba(128, 128, 128, 0.3);
-        padding: 14px 18px;
-        border-radius: 8px;
-    }
-    div[data-testid="stMetricLabel"] * {
-        color: var(--text-color) !important;
-        opacity: 0.85;
-        font-weight: 600 !important;
-    }
-    div[data-testid="stMetricValue"] * {
-        font-size: 1.75rem !important;
-        font-weight: 700 !important;
-        color: var(--text-color) !important;
-    }
-    div[data-testid="stVerticalBlockBorderWrapper"] {
-        border-color: rgba(128, 128, 128, 0.3) !important;
-        border-radius: 8px !important;
-    }
-</style>
-""", unsafe_allow_html=True)
 
 # Venue lookup reference with CHRIST Central Campus coordinates
 VENUE_INFO = {
@@ -61,19 +35,7 @@ df = st.session_state.events_df.copy()
 df["Date_dt"] = pd.to_datetime(df["Date"])
 df["Month"] = df["Date_dt"].dt.month_name()
 df["Duration_Hrs"] = df["End_Hour"] - df["Start_Hour"]
-
 df["Utilization_Pct"] = np.round((df["Expected_Footfall"] / df["Venue_Capacity"]) * 100, 1)
-df["Attendance_Accuracy_Pct"] = np.where(
-    df["Booking_Status"] == "Completed",
-    np.round((df["Actual_Footfall"] / df["Expected_Footfall"]) * 100, 1),
-    np.nan
-)
-
-df["Load_Tier"] = pd.cut(
-    df["Utilization_Pct"],
-    bins=[0, 60, 85, 100],
-    labels=["Under-Utilized (<60%)", "Optimal (60-85%)", "Near Capacity (>85%)"]
-)
 
 # -----------------------------------------------------------------------
 # Sidebar Navigation & Multi-Control Filters
@@ -115,7 +77,7 @@ if period_choice in month_map:
     filtered_df = filtered_df[filtered_df["Date_dt"].dt.month == month_map[period_choice]]
 
 # -----------------------------------------------------------------------
-# Clean Header Bar & 2 Top-Level Tabs (Analytics & Registration)
+# Header & 2 Top-Level Tabs (Analytics & Registration)
 # -----------------------------------------------------------------------
 st.title("CHRIST Campus Venue Utilization & Event Analytics")
 st.caption("Auditorium Occupancy, Scheduling Clash Diagnostics & Departmental Demand Telemetry")
