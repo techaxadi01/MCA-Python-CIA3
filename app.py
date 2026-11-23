@@ -179,14 +179,25 @@ with tab_analytics:
                     }
                     colors = [status_colors.get(s, "#64748b") for s in status_counts.index]
                     fig3, ax3 = plt.subplots(figsize=(5.5, 3.8))
-                    ax3.pie(
+                    wedges, _, autotexts = ax3.pie(
                         status_counts.values,
-                        labels=status_counts.index,
                         autopct="%1.1f%%",
                         startangle=140,
+                        pctdistance=0.77,
                         colors=colors,
-                        wedgeprops=dict(width=0.45, edgecolor="white")
+                        wedgeprops=dict(width=0.45, edgecolor="white", linewidth=1.5),
+                        textprops=dict(color="white", fontweight="bold", fontsize=8.5)
                     )
+                    ax3.legend(
+                        wedges,
+                        status_counts.index,
+                        loc="lower center",
+                        bbox_to_anchor=(0.5, -0.14),
+                        ncol=2,
+                        frameon=False,
+                        fontsize=9
+                    )
+                    ax3.axis("equal")
                     st.pyplot(fig3)
 
             st.write("")
