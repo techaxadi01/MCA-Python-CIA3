@@ -17,7 +17,7 @@ st.set_page_config(
 VENUE_INFO = {
     "Main Auditorium": {"block": "Audi Block", "cap": 800, "lat": 12.93572, "lon": 77.60590},
     "KE Auditorium": {"block": "Block IV", "cap": 500, "lat": 12.93180, "lon": 77.60582},
-    "Assembly Hall": {"block": "Block I", "cap": 300, "lat": 12.93415, "lon": 77.60648},
+    "Assembly Hall": {"block": "Block I", "cap": 300, "lat": 12.93405, "lon": 77.60685},
     "Skyview": {"block": "Central Block", "cap": 250, "lat": 12.93452, "lon": 77.60590},
     "Panel Room 1": {"block": "Block II", "cap": 100, "lat": 12.93285, "lon": 77.60642},
     "Panel Room 2": {"block": "Block II", "cap": 100, "lat": 12.93295, "lon": 77.60648}
