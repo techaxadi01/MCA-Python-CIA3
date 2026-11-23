@@ -98,31 +98,37 @@ with tab_analytics:
     total_power = float(np.sum(filtered_df["Est_Power_kWh"])) if total_events > 0 else 0.0
 
     kpi1.metric(
-        border=True,
         label="Total Events",
         value=f"{total_events:,}",
-        delta=f"{total_events - len(df)} vs All" if total_events != len(df) else "Full Dataset"
+        delta=f"{total_events - len(df)} vs All" if total_events != len(df) else "Full Dataset",
+        border=True
     )
     kpi2.metric(
-        border=True,
         label="Expected Footfall",
-        value=f"{total_footfall:,}"
+        value=f"{total_footfall:,}",
+        delta=f"{int(np.mean(filtered_df['Expected_Footfall'])) if total_events > 0 else 0} avg/event",
+        delta_color="off",
+        border=True
     )
     kpi3.metric(
-        border=True,
         label="Avg Hall Utilization",
         value=f"{avg_util:.1f}%",
-        delta=f"{avg_util - overall_avg_util:+.1f}% vs Sem Avg"
+        delta=f"{avg_util - overall_avg_util:+.1f}% vs Sem Avg",
+        border=True
     )
     kpi4.metric(
-        border=True,
         label="Clashes Flagged",
-        value=f"{clash_count}"
+        value=f"{clash_count}",
+        delta="Schedule Conflicts",
+        delta_color="off",
+        border=True
     )
     kpi5.metric(
-        border=True,
         label="Est. Energy Load",
-        value=f"{total_power:,.1f} kWh"
+        value=f"{total_power:,.1f}",
+        delta="Total kWh",
+        delta_color="off",
+        border=True
     )
 
     st.write("")
