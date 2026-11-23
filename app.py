@@ -21,7 +21,6 @@ st.markdown("""
         border: 1px solid rgba(128, 128, 128, 0.3);
         padding: 14px 18px;
         border-radius: 8px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
     div[data-testid="stMetricLabel"] * {
         color: var(--text-color) !important;
@@ -29,21 +28,9 @@ st.markdown("""
         font-weight: 600 !important;
     }
     div[data-testid="stMetricValue"] * {
-        font-size: 1.55rem !important;
+        font-size: 1.75rem !important;
         font-weight: 700 !important;
         color: var(--text-color) !important;
-    }
-    .badge-live {
-        background-color: rgba(37, 99, 235, 0.15);
-        color: #60a5fa;
-        padding: 5px 12px;
-        border-radius: 6px;
-        font-size: 0.78rem;
-        font-weight: 600;
-        letter-spacing: 0.03em;
-        border: 1px solid rgba(37, 99, 235, 0.4);
-        display: inline-block;
-        text-transform: uppercase;
     }
     div[data-testid="stVerticalBlockBorderWrapper"] {
         border-color: rgba(128, 128, 128, 0.3) !important;
@@ -128,18 +115,10 @@ if period_choice in month_map:
     filtered_df = filtered_df[filtered_df["Date_dt"].dt.month == month_map[period_choice]]
 
 # -----------------------------------------------------------------------
-# Header Bar & 2 Top-Level Tabs (Analytics & Registration)
+# Clean Header Bar & 2 Top-Level Tabs (Analytics & Registration)
 # -----------------------------------------------------------------------
-latest_date = df["Date_dt"].max().strftime("%d %b %Y")
-col_title, col_status = st.columns([4, 1])
-with col_title:
-    st.title("CHRIST Campus Venue Utilization & Event Analytics")
-    st.caption("Auditorium Occupancy, Scheduling Clash Diagnostics & Departmental Demand Telemetry")
-with col_status:
-    st.markdown(
-        f"<div style='text-align:right; padding-top:14px;'><span class='badge-live'>Schedule Synced ({latest_date})</span></div>",
-        unsafe_allow_html=True
-    )
+st.title("CHRIST Campus Venue Utilization & Event Analytics")
+st.caption("Auditorium Occupancy, Scheduling Clash Diagnostics & Departmental Demand Telemetry")
 
 tab_analytics, tab_registration = st.tabs(["Analytics", "Registration"])
 
@@ -156,41 +135,27 @@ with tab_analytics:
     clash_count = int(np.sum(filtered_df["Booking_Status"] == "Clash Flagged"))
     total_power = float(np.sum(filtered_df["Est_Power_kWh"])) if total_events > 0 else 0.0
 
-    footfall_spark = filtered_df["Expected_Footfall"].tolist()[-20:] if total_events > 0 else [0]
-    util_spark = filtered_df["Utilization_Pct"].tolist()[-20:] if total_events > 0 else [0]
-    power_spark = filtered_df["Est_Power_kWh"].tolist()[-20:] if total_events > 0 else [0]
-
     kpi1.metric(
         label="Total Events",
         value=f"{total_events:,}",
-        delta=f"{total_events - len(df)} vs Full Sem" if total_events != len(df) else "All Semester Records"
+        delta=f"{total_events - len(df)} vs All" if total_events != len(df) else "Full Dataset"
     )
     kpi2.metric(
         label="Expected Footfall",
-        value=f"{total_footfall:,}",
-        delta=f"{int(np.mean(filtered_df['Expected_Footfall'])) if total_events > 0 else 0} avg/event",
-        chart_data=footfall_spark,
-        chart_type="area"
+        value=f"{total_footfall:,}"
     )
     kpi3.metric(
         label="Avg Hall Utilization",
         value=f"{avg_util:.1f}%",
-        delta=f"{avg_util - overall_avg_util:+.1f}% vs Sem Avg",
-        chart_data=util_spark,
-        chart_type="line"
+        delta=f"{avg_util - overall_avg_util:+.1f}% vs Sem Avg"
     )
     kpi4.metric(
         label="Clashes Flagged",
-        value=f"{clash_count}",
-        delta="Requires Resolution" if clash_count > 0 else "Zero Conflicts",
-        delta_color="inverse" if clash_count > 0 else "normal"
+        value=f"{clash_count}"
     )
     kpi5.metric(
         label="Est. Energy Load",
-        value=f"{total_power:,.1f} kWh",
-        delta=f"{np.sum(filtered_df['Duration_Hrs']) if total_events > 0 else 0} Total Hrs",
-        chart_data=power_spark,
-        chart_type="bar"
+        value=f"{total_power:,.1f} kWh"
     )
 
     st.write("")
