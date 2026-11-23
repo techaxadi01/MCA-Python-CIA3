@@ -392,7 +392,7 @@ with tab_analytics:
                         "Avg_Utilization": "Avg Utilization (%)"
                     },
                     center={"lat": 12.9338, "lon": 77.6061},
-                    zoom=15.4,
+                    zoom=16.1,
                     height=540
                 )
                 fig_map.update_layout(
