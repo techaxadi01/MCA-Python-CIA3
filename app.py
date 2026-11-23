@@ -15,12 +15,12 @@ st.set_page_config(
 
 # Venue lookup reference with CHRIST Central Campus coordinates
 VENUE_INFO = {
-    "Main Auditorium": {"block": "Audi Block", "cap": 800, "lat": 12.9349, "lon": 77.6061},
-    "KE Auditorium": {"block": "Block IV", "cap": 500, "lat": 12.9336, "lon": 77.6054},
-    "Assembly Hall": {"block": "Block I", "cap": 300, "lat": 12.9347, "lon": 77.6055},
-    "Skyview": {"block": "Central Block", "cap": 250, "lat": 12.9342, "lon": 77.6060},
-    "Panel Room 1": {"block": "Block II", "cap": 100, "lat": 12.9340, "lon": 77.6051},
-    "Panel Room 2": {"block": "Block II", "cap": 100, "lat": 12.9341, "lon": 77.6052}
+    "Main Auditorium": {"block": "Audi Block", "cap": 800, "lat": 12.93555, "lon": 77.60590},
+    "KE Auditorium": {"block": "Block IV", "cap": 500, "lat": 12.93330, "lon": 77.60635},
+    "Assembly Hall": {"block": "Block I", "cap": 300, "lat": 12.93475, "lon": 77.60555},
+    "Skyview": {"block": "Central Block", "cap": 250, "lat": 12.93435, "lon": 77.60600},
+    "Panel Room 1": {"block": "Block II", "cap": 100, "lat": 12.93310, "lon": 77.60640},
+    "Panel Room 2": {"block": "Block II", "cap": 100, "lat": 12.93320, "lon": 77.60650}
 }
 
 # -----------------------------------------------------------------------
