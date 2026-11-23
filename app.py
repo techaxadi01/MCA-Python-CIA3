@@ -373,7 +373,7 @@ with tab_analytics:
                     size="Total_Footfall",
                     color="Avg_Utilization",
                     color_continuous_scale="Blues",
-                    size_max=36,
+                    size_max=34,
                     hover_name="Venue",
                     hover_data={
                         "Block": True,
@@ -391,13 +391,14 @@ with tab_analytics:
                         "Total_Footfall": "Cumulative Footfall",
                         "Avg_Utilization": "Avg Utilization (%)"
                     },
-                    center={"lat": 12.9344, "lon": 77.6058},
-                    zoom=16.5,
-                    height=520
+                    center={"lat": 12.9338, "lon": 77.6061},
+                    zoom=15.4,
+                    height=540
                 )
                 fig_map.update_layout(
                     map_style="open-street-map",
-                    margin=dict(l=0, r=0, t=10, b=0)
+                    margin=dict(l=0, r=0, t=10, b=0),
+                    uirevision="campus_map"
                 )
                 st.plotly_chart(fig_map, use_container_width=True)
             else:
