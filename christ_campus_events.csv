@@ -1,0 +1,151 @@
+Event_ID,Event_Name,Department,Event_Type,Venue,Block,Venue_Capacity,Date,Start_Hour,End_Hour,Expected_Footfall,Actual_Footfall,AV_Setup,Est_Power_kWh,Booking_Status
+EVT-1001,Life National Fest #11,Life Sciences,National Fest,KE Auditorium,Block IV,500,2026-08-01,9,11,307,301,Standard AV + Projector,15.4,Completed
+EVT-1002,Commerce National Fest #10,Commerce,National Fest,Main Auditorium,Audi Block,800,2026-08-02,15,19,666,575,Full Sound + LED Wall,43.6,Completed
+EVT-1003,Commerce Panel Discussion #13,Commerce,Panel Discussion,Panel Room 2,Block II,100,2026-08-02,9,11,71,0,Basic Mic + Screen,2.8,Cancelled
+EVT-1004,Psychology Cultural Audition #12,Psychology,Cultural Audition,Main Auditorium,Audi Block,800,2026-08-02,11,13,754,722,Full Sound + LED Wall,25.8,Completed
+EVT-1005,Psychology Hackathon #11,Psychology,Hackathon,Assembly Hall,Block I,300,2026-08-02,10,12,191,0,Basic Mic + Screen,8.6,Cancelled
+EVT-1006,Media Seminar #11,Media Studies,Seminar,Skyview,Central Block,250,2026-08-03,15,18,167,138,Standard AV + Projector,10.9,Completed
+EVT-1007,Physics Conclave #2,Physics,Conclave,Main Auditorium,Audi Block,800,2026-08-03,13,15,772,0,Full Sound + LED Wall,22.8,Clash Flagged
+EVT-1008,Commerce National Fest #1,Commerce,National Fest,Main Auditorium,Audi Block,800,2026-08-04,9,11,774,625,Standard AV + Projector,23.3,Completed
+EVT-1009,Commerce Hackathon #6,Commerce,Hackathon,KE Auditorium,Block IV,500,2026-08-04,10,16,289,286,Standard AV + Projector,42.6,Completed
+EVT-1010,Student Cultural Audition #13,Student Council,Cultural Audition,KE Auditorium,Block IV,500,2026-08-04,15,18,248,218,Standard AV + Projector,21.1,Completed
+EVT-1011,Commerce Seminar #8,Commerce,Seminar,Skyview,Central Block,250,2026-08-05,11,14,219,180,Basic Mic + Screen,12.2,Completed
+EVT-1012,Life Guest Lecture #10,Life Sciences,Guest Lecture,Assembly Hall,Block I,300,2026-08-06,13,16,168,163,Standard AV + Projector,12.8,Completed
+EVT-1013,Media Seminar #9,Media Studies,Seminar,Skyview,Central Block,250,2026-08-07,9,11,231,0,Basic Mic + Screen,7.7,Cancelled
+EVT-1014,Media Workshop #1,Media Studies,Workshop,Panel Room 2,Block II,100,2026-08-08,11,15,66,0,Basic Mic + Screen,6.4,Cancelled
+EVT-1015,Student Seminar #2,Student Council,Seminar,Assembly Hall,Block I,300,2026-08-08,15,17,151,120,Basic Mic + Screen,8.4,Completed
+EVT-1016,Management Hackathon #8,Management,Hackathon,Skyview,Central Block,250,2026-08-08,9,11,114,96,Standard AV + Projector,7.3,Completed
+EVT-1017,Life Workshop #6,Life Sciences,Workshop,Panel Room 2,Block II,100,2026-08-09,9,12,71,61,Basic Mic + Screen,4.6,Completed
+EVT-1018,Commerce Hackathon #3,Commerce,Hackathon,Assembly Hall,Block I,300,2026-08-09,10,12,237,240,Standard AV + Projector,8.5,Completed
+EVT-1019,Psychology Workshop #5,Psychology,Workshop,Panel Room 2,Block II,100,2026-08-11,9,15,69,70,Basic Mic + Screen,9.4,Completed
+EVT-1020,Student Cultural Audition #3,Student Council,Cultural Audition,Main Auditorium,Audi Block,800,2026-08-14,11,17,391,331,Full Sound + LED Wall,68.7,Completed
+EVT-1021,Management National Fest #11,Management,National Fest,Main Auditorium,Audi Block,800,2026-08-14,10,16,389,376,Standard AV + Projector,70.0,Completed
+EVT-1022,Management Guest Lecture #9,Management,Guest Lecture,Assembly Hall,Block I,300,2026-08-15,9,12,192,192,Standard AV + Projector,14.3,Completed
+EVT-1023,Student Cultural Audition #3,Student Council,Cultural Audition,Main Auditorium,Audi Block,800,2026-08-15,9,12,442,397,Full Sound + LED Wall,32.8,Completed
+EVT-1024,Life Panel Discussion #10,Life Sciences,Panel Discussion,Panel Room 1,Block II,100,2026-08-15,15,17,53,0,Standard AV + Projector,3.2,Clash Flagged
+EVT-1025,Physics National Fest #7,Physics,National Fest,Main Auditorium,Audi Block,800,2026-08-15,15,18,498,432,Standard AV + Projector,39.3,Completed
+EVT-1026,Psychology Hackathon #14,Psychology,Hackathon,KE Auditorium,Block IV,500,2026-08-18,15,18,393,410,Standard AV + Projector,22.6,Completed
+EVT-1027,Commerce National Fest #12,Commerce,National Fest,Main Auditorium,Audi Block,800,2026-08-18,13,16,466,382,Full Sound + LED Wall,35.5,Completed
+EVT-1028,Law National Fest #13,Law,National Fest,Main Auditorium,Audi Block,800,2026-08-21,10,12,399,412,Full Sound + LED Wall,24.7,Completed
+EVT-1029,Life Conclave #14,Life Sciences,Conclave,Main Auditorium,Audi Block,800,2026-08-21,14,16,465,460,Standard AV + Projector,21.7,Completed
+EVT-1030,Law Panel Discussion #1,Law,Panel Discussion,Skyview,Central Block,250,2026-08-21,15,18,175,161,Basic Mic + Screen,11.2,Completed
+EVT-1031,Law Panel Discussion #8,Law,Panel Discussion,Skyview,Central Block,250,2026-08-22,14,18,147,151,Basic Mic + Screen,15.0,Completed
+EVT-1032,Law Cultural Audition #2,Law,Cultural Audition,Main Auditorium,Audi Block,800,2026-08-22,10,12,608,0,Standard AV + Projector,24.4,Clash Flagged
+EVT-1033,Commerce Seminar #13,Commerce,Seminar,KE Auditorium,Block IV,500,2026-08-24,11,15,390,375,Full Sound + LED Wall,28.2,Completed
+EVT-1034,Management Cultural Audition #7,Management,Cultural Audition,Main Auditorium,Audi Block,800,2026-08-24,9,12,523,462,Full Sound + LED Wall,34.3,Completed
+EVT-1035,Psychology Guest Lecture #9,Psychology,Guest Lecture,Skyview,Central Block,250,2026-08-26,11,15,209,181,Standard AV + Projector,14.0,Completed
+EVT-1036,Student Conclave #1,Student Council,Conclave,Main Auditorium,Audi Block,800,2026-08-29,13,15,689,711,Full Sound + LED Wall,25.7,Completed
+EVT-1037,Life Cultural Audition #3,Life Sciences,Cultural Audition,KE Auditorium,Block IV,500,2026-08-30,9,11,366,328,Full Sound + LED Wall,14.4,Completed
+EVT-1038,Computer Seminar #3,Computer Science,Seminar,KE Auditorium,Block IV,500,2026-09-02,11,13,309,0,Full Sound + LED Wall,16.4,Clash Flagged
+EVT-1039,Law Cultural Audition #10,Law,Cultural Audition,Main Auditorium,Audi Block,800,2026-09-02,13,16,679,677,Full Sound + LED Wall,33.1,Completed
+EVT-1040,Life Hackathon #12,Life Sciences,Hackathon,Skyview,Central Block,250,2026-09-03,11,15,158,132,Standard AV + Projector,15.8,Completed
+EVT-1041,Computer Cultural Audition #13,Computer Science,Cultural Audition,KE Auditorium,Block IV,500,2026-09-04,14,16,330,0,Standard AV + Projector,13.9,Cancelled
+EVT-1042,Law Hackathon #4,Law,Hackathon,Assembly Hall,Block I,300,2026-09-04,14,16,264,0,Basic Mic + Screen,9.9,Clash Flagged
+EVT-1043,Psychology Hackathon #13,Psychology,Hackathon,Assembly Hall,Block I,300,2026-09-04,14,16,247,217,Standard AV + Projector,8.9,Completed
+EVT-1044,Management Seminar #9,Management,Seminar,Skyview,Central Block,250,2026-09-05,13,17,221,214,Basic Mic + Screen,14.2,Completed
+EVT-1045,Computer National Fest #5,Computer Science,National Fest,KE Auditorium,Block IV,500,2026-09-07,14,19,228,0,Standard AV + Projector,34.1,Clash Flagged
+EVT-1046,Physics Cultural Audition #1,Physics,Cultural Audition,KE Auditorium,Block IV,500,2026-09-08,13,16,481,460,Full Sound + LED Wall,23.4,Completed
+EVT-1047,Law Hackathon #5,Law,Hackathon,Skyview,Central Block,250,2026-09-09,9,15,239,214,Basic Mic + Screen,20.7,Completed
+EVT-1048,Student Guest Lecture #1,Student Council,Guest Lecture,KE Auditorium,Block IV,500,2026-09-10,10,12,295,255,Standard AV + Projector,14.9,Completed
+EVT-1049,Media National Fest #5,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-09-10,13,15,416,430,Full Sound + LED Wall,23.6,Completed
+EVT-1050,Media Guest Lecture #1,Media Studies,Guest Lecture,KE Auditorium,Block IV,500,2026-09-11,10,13,268,266,Standard AV + Projector,22.4,Completed
+EVT-1051,Law Guest Lecture #7,Law,Guest Lecture,Skyview,Central Block,250,2026-09-13,11,15,223,201,Basic Mic + Screen,14.3,Completed
+EVT-1052,Physics Seminar #1,Physics,Seminar,Assembly Hall,Block I,300,2026-09-13,14,19,223,231,Standard AV + Projector,24.1,Completed
+EVT-1053,Law Hackathon #2,Law,Hackathon,KE Auditorium,Block IV,500,2026-09-14,11,13,279,0,Full Sound + LED Wall,15.8,Cancelled
+EVT-1054,Student Panel Discussion #14,Student Council,Panel Discussion,Panel Room 2,Block II,100,2026-09-16,10,13,89,89,Basic Mic + Screen,4.9,Completed
+EVT-1055,Media National Fest #6,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-09-16,14,17,658,548,Full Sound + LED Wall,32.5,Completed
+EVT-1056,Management Guest Lecture #14,Management,Guest Lecture,Skyview,Central Block,250,2026-09-17,11,13,208,189,Standard AV + Projector,8.1,Completed
+EVT-1057,Life Guest Lecture #2,Life Sciences,Guest Lecture,Assembly Hall,Block I,300,2026-09-18,14,16,282,243,Standard AV + Projector,8.9,Completed
+EVT-1058,Physics Cultural Audition #11,Physics,Cultural Audition,Main Auditorium,Audi Block,800,2026-09-19,11,14,504,461,Standard AV + Projector,36.6,Completed
+EVT-1059,Physics Conclave #10,Physics,Conclave,KE Auditorium,Block IV,500,2026-09-20,13,15,462,446,Standard AV + Projector,14.0,Completed
+EVT-1060,Commerce Workshop #10,Commerce,Workshop,Panel Room 2,Block II,100,2026-09-20,10,12,54,44,Basic Mic + Screen,3.0,Completed
+EVT-1061,Management National Fest #13,Management,National Fest,Main Auditorium,Audi Block,800,2026-09-21,11,13,698,572,Full Sound + LED Wall,25.8,Completed
+EVT-1062,Computer Guest Lecture #12,Computer Science,Guest Lecture,Assembly Hall,Block I,300,2026-09-22,9,12,291,300,Basic Mic + Screen,12.8,Completed
+EVT-1063,Life Hackathon #12,Life Sciences,Hackathon,Skyview,Central Block,250,2026-09-22,10,12,145,148,Standard AV + Projector,7.5,Completed
+EVT-1064,Management Guest Lecture #14,Management,Guest Lecture,Skyview,Central Block,250,2026-09-22,9,12,136,137,Standard AV + Projector,10.3,Completed
+EVT-1065,Media National Fest #8,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-09-23,13,15,635,600,Full Sound + LED Wall,25.1,Completed
+EVT-1066,Student National Fest #6,Student Council,National Fest,Main Auditorium,Audi Block,800,2026-09-23,9,11,741,638,Standard AV + Projector,24.0,Completed
+EVT-1067,Law National Fest #8,Law,National Fest,Main Auditorium,Audi Block,800,2026-09-24,14,16,464,392,Standard AV + Projector,23.0,Completed
+EVT-1068,Life National Fest #6,Life Sciences,National Fest,Main Auditorium,Audi Block,800,2026-09-27,14,19,407,424,Full Sound + LED Wall,64.4,Completed
+EVT-1069,Physics National Fest #5,Physics,National Fest,Main Auditorium,Audi Block,800,2026-09-28,11,15,664,610,Standard AV + Projector,51.3,Completed
+EVT-1070,Physics Guest Lecture #5,Physics,Guest Lecture,Skyview,Central Block,250,2026-09-29,13,16,144,137,Standard AV + Projector,10.8,Completed
+EVT-1071,Psychology Cultural Audition #2,Psychology,Cultural Audition,Main Auditorium,Audi Block,800,2026-09-29,15,17,416,435,Full Sound + LED Wall,23.1,Completed
+EVT-1072,Psychology National Fest #5,Psychology,National Fest,Main Auditorium,Audi Block,800,2026-09-29,9,11,560,559,Full Sound + LED Wall,22.1,Completed
+EVT-1073,Management Hackathon #12,Management,Hackathon,Assembly Hall,Block I,300,2026-09-29,9,11,195,0,Standard AV + Projector,9.4,Cancelled
+EVT-1074,Student Workshop #14,Student Council,Workshop,Panel Room 2,Block II,100,2026-09-29,15,19,88,75,Basic Mic + Screen,6.2,Completed
+EVT-1075,Psychology National Fest #7,Psychology,National Fest,KE Auditorium,Block IV,500,2026-09-30,10,14,341,312,Full Sound + LED Wall,28.8,Completed
+EVT-1076,Computer National Fest #7,Computer Science,National Fest,Main Auditorium,Audi Block,800,2026-10-01,10,13,744,616,Full Sound + LED Wall,39.2,Completed
+EVT-1077,Commerce Conclave #13,Commerce,Conclave,KE Auditorium,Block IV,500,2026-10-01,14,17,421,441,Standard AV + Projector,23.6,Completed
+EVT-1078,Law Workshop #13,Law,Workshop,Panel Room 2,Block II,100,2026-10-01,15,17,82,81,Basic Mic + Screen,2.8,Completed
+EVT-1079,Psychology Cultural Audition #3,Psychology,Cultural Audition,Main Auditorium,Audi Block,800,2026-10-01,14,17,566,562,Standard AV + Projector,32.5,Completed
+EVT-1080,Commerce Seminar #8,Commerce,Seminar,Skyview,Central Block,250,2026-10-01,11,13,136,0,Standard AV + Projector,7.6,Cancelled
+EVT-1081,Life Panel Discussion #11,Life Sciences,Panel Discussion,Panel Room 1,Block II,100,2026-10-02,13,19,52,44,Basic Mic + Screen,9.4,Completed
+EVT-1082,Psychology Conclave #13,Psychology,Conclave,KE Auditorium,Block IV,500,2026-10-02,14,17,265,252,Standard AV + Projector,22.2,Completed
+EVT-1083,Student National Fest #6,Student Council,National Fest,KE Auditorium,Block IV,500,2026-10-03,9,11,485,403,Full Sound + LED Wall,16.3,Completed
+EVT-1084,Life Workshop #3,Life Sciences,Workshop,Panel Room 2,Block II,100,2026-10-03,14,16,84,83,Basic Mic + Screen,3.1,Completed
+EVT-1085,Psychology National Fest #11,Psychology,National Fest,KE Auditorium,Block IV,500,2026-10-04,10,13,352,0,Standard AV + Projector,22.9,Cancelled
+EVT-1086,Commerce Hackathon #12,Commerce,Hackathon,KE Auditorium,Block IV,500,2026-10-10,13,15,467,441,Full Sound + LED Wall,15.4,Completed
+EVT-1087,Management Cultural Audition #8,Management,Cultural Audition,Main Auditorium,Audi Block,800,2026-10-10,13,16,596,0,Full Sound + LED Wall,36.3,Cancelled
+EVT-1088,Computer Panel Discussion #1,Computer Science,Panel Discussion,Panel Room 2,Block II,100,2026-10-11,14,16,67,59,Basic Mic + Screen,3.0,Completed
+EVT-1089,Student Workshop #4,Student Council,Workshop,Skyview,Central Block,250,2026-10-11,11,14,181,162,Basic Mic + Screen,11.4,Completed
+EVT-1090,Computer Conclave #12,Computer Science,Conclave,KE Auditorium,Block IV,500,2026-10-12,11,13,296,267,Full Sound + LED Wall,13.6,Completed
+EVT-1091,Management Panel Discussion #9,Management,Panel Discussion,Panel Room 2,Block II,100,2026-10-13,9,12,58,53,Basic Mic + Screen,4.6,Completed
+EVT-1092,Law Workshop #11,Law,Workshop,Panel Room 2,Block II,100,2026-10-14,13,15,50,49,Basic Mic + Screen,3.2,Completed
+EVT-1093,Psychology Seminar #3,Psychology,Seminar,Skyview,Central Block,250,2026-10-14,15,17,231,189,Standard AV + Projector,7.1,Completed
+EVT-1094,Commerce Seminar #7,Commerce,Seminar,Skyview,Central Block,250,2026-10-15,10,16,195,196,Basic Mic + Screen,21.9,Completed
+EVT-1095,Psychology Cultural Audition #1,Psychology,Cultural Audition,Main Auditorium,Audi Block,800,2026-10-17,15,17,725,756,Standard AV + Projector,25.3,Completed
+EVT-1096,Student Workshop #9,Student Council,Workshop,Panel Room 2,Block II,100,2026-10-17,9,12,72,70,Basic Mic + Screen,4.4,Completed
+EVT-1097,Physics Hackathon #5,Physics,Hackathon,Assembly Hall,Block I,300,2026-10-19,10,13,162,130,Basic Mic + Screen,14.6,Completed
+EVT-1098,Psychology National Fest #9,Psychology,National Fest,Main Auditorium,Audi Block,800,2026-10-19,14,17,711,570,Full Sound + LED Wall,33.4,Completed
+EVT-1099,Physics Workshop #14,Physics,Workshop,Panel Room 2,Block II,100,2026-10-20,13,16,71,71,Basic Mic + Screen,4.4,Completed
+EVT-1100,Management Seminar #4,Management,Seminar,Assembly Hall,Block I,300,2026-10-20,11,13,257,259,Standard AV + Projector,8.9,Completed
+EVT-1101,Computer Workshop #1,Computer Science,Workshop,Panel Room 1,Block II,100,2026-10-21,15,18,80,0,Basic Mic + Screen,4.7,Clash Flagged
+EVT-1102,Psychology Panel Discussion #5,Psychology,Panel Discussion,Panel Room 1,Block II,100,2026-10-22,13,15,71,62,Basic Mic + Screen,3.2,Completed
+EVT-1103,Media National Fest #12,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-10-23,9,12,613,502,Full Sound + LED Wall,33.0,Completed
+EVT-1104,Commerce Hackathon #9,Commerce,Hackathon,KE Auditorium,Block IV,500,2026-10-24,11,13,438,0,Standard AV + Projector,15.9,Clash Flagged
+EVT-1105,Life National Fest #9,Life Sciences,National Fest,Main Auditorium,Audi Block,800,2026-10-26,11,14,701,682,Standard AV + Projector,38.5,Completed
+EVT-1106,Management National Fest #10,Management,National Fest,KE Auditorium,Block IV,500,2026-10-26,10,12,402,380,Full Sound + LED Wall,16.5,Completed
+EVT-1107,Law Hackathon #14,Law,Hackathon,Assembly Hall,Block I,300,2026-10-27,14,17,165,149,Basic Mic + Screen,14.3,Completed
+EVT-1108,Psychology Panel Discussion #3,Psychology,Panel Discussion,Panel Room 1,Block II,100,2026-10-27,10,13,79,74,Basic Mic + Screen,4.5,Completed
+EVT-1109,Law Workshop #1,Law,Workshop,Panel Room 1,Block II,100,2026-10-27,13,16,87,83,Basic Mic + Screen,4.7,Completed
+EVT-1110,Management Panel Discussion #14,Management,Panel Discussion,Panel Room 1,Block II,100,2026-10-27,15,17,54,55,Standard AV + Projector,2.7,Completed
+EVT-1111,Psychology Cultural Audition #10,Psychology,Cultural Audition,KE Auditorium,Block IV,500,2026-10-28,15,18,391,0,Full Sound + LED Wall,24.7,Cancelled
+EVT-1112,Media Panel Discussion #14,Media Studies,Panel Discussion,Panel Room 1,Block II,100,2026-10-28,9,11,50,43,Basic Mic + Screen,2.9,Completed
+EVT-1113,Law National Fest #5,Law,National Fest,Main Auditorium,Audi Block,800,2026-10-28,15,17,406,337,Full Sound + LED Wall,26.2,Completed
+EVT-1114,Law Workshop #4,Law,Workshop,Panel Room 2,Block II,100,2026-10-28,15,18,92,0,Basic Mic + Screen,4.7,Clash Flagged
+EVT-1115,Student Seminar #10,Student Council,Seminar,Assembly Hall,Block I,300,2026-10-29,14,18,154,137,Basic Mic + Screen,16.3,Completed
+EVT-1116,Commerce Conclave #13,Commerce,Conclave,Main Auditorium,Audi Block,800,2026-10-29,15,19,734,0,Full Sound + LED Wall,52.8,Cancelled
+EVT-1117,Commerce Guest Lecture #14,Commerce,Guest Lecture,Skyview,Central Block,250,2026-10-30,11,15,142,132,Standard AV + Projector,15.3,Completed
+EVT-1118,Law Guest Lecture #8,Law,Guest Lecture,Skyview,Central Block,250,2026-10-31,11,13,175,177,Basic Mic + Screen,6.8,Completed
+EVT-1119,Media Cultural Audition #12,Media Studies,Cultural Audition,KE Auditorium,Block IV,500,2026-10-31,13,15,293,270,Standard AV + Projector,13.7,Completed
+EVT-1120,Law Cultural Audition #11,Law,Cultural Audition,KE Auditorium,Block IV,500,2026-11-01,14,17,381,337,Standard AV + Projector,23.3,Completed
+EVT-1121,Computer Hackathon #10,Computer Science,Hackathon,Skyview,Central Block,250,2026-11-01,13,17,227,229,Basic Mic + Screen,15.6,Completed
+EVT-1122,Psychology Panel Discussion #7,Psychology,Panel Discussion,Panel Room 2,Block II,100,2026-11-03,13,15,91,0,Basic Mic + Screen,2.7,Cancelled
+EVT-1123,Law Hackathon #11,Law,Hackathon,Assembly Hall,Block I,300,2026-11-08,13,16,255,216,Basic Mic + Screen,12.4,Completed
+EVT-1124,Computer National Fest #10,Computer Science,National Fest,KE Auditorium,Block IV,500,2026-11-08,10,13,368,304,Full Sound + LED Wall,23.7,Completed
+EVT-1125,Media Conclave #4,Media Studies,Conclave,KE Auditorium,Block IV,500,2026-11-09,13,15,424,357,Standard AV + Projector,15.8,Completed
+EVT-1126,Computer Seminar #13,Computer Science,Seminar,KE Auditorium,Block IV,500,2026-11-11,15,17,389,395,Standard AV + Projector,16.4,Completed
+EVT-1127,Psychology Workshop #10,Psychology,Workshop,Skyview,Central Block,250,2026-11-11,13,15,115,106,Standard AV + Projector,7.9,Completed
+EVT-1128,Life Guest Lecture #13,Life Sciences,Guest Lecture,KE Auditorium,Block IV,500,2026-11-11,14,19,252,0,Standard AV + Projector,37.7,Cancelled
+EVT-1129,Psychology Conclave #12,Psychology,Conclave,Main Auditorium,Audi Block,800,2026-11-12,13,16,475,0,Standard AV + Projector,33.5,Clash Flagged
+EVT-1130,Law Panel Discussion #12,Law,Panel Discussion,Panel Room 1,Block II,100,2026-11-12,13,15,59,0,Basic Mic + Screen,2.9,Clash Flagged
+EVT-1131,Physics Panel Discussion #8,Physics,Panel Discussion,Panel Room 2,Block II,100,2026-11-14,11,13,79,80,Basic Mic + Screen,3.0,Completed
+EVT-1132,Media National Fest #12,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-11-14,11,15,682,567,Standard AV + Projector,43.5,Completed
+EVT-1133,Commerce Seminar #9,Commerce,Seminar,Assembly Hall,Block I,300,2026-11-15,15,17,154,139,Standard AV + Projector,8.5,Completed
+EVT-1134,Physics Hackathon #6,Physics,Hackathon,Skyview,Central Block,250,2026-11-16,11,17,132,128,Basic Mic + Screen,22.0,Completed
+EVT-1135,Media National Fest #6,Media Studies,National Fest,KE Auditorium,Block IV,500,2026-11-16,11,14,252,263,Full Sound + LED Wall,20.9,Completed
+EVT-1136,Physics Seminar #4,Physics,Seminar,Assembly Hall,Block I,300,2026-11-16,10,12,217,192,Basic Mic + Screen,8.2,Completed
+EVT-1137,Physics Panel Discussion #11,Physics,Panel Discussion,Skyview,Central Block,250,2026-11-16,10,13,218,183,Standard AV + Projector,10.4,Completed
+EVT-1138,Commerce Workshop #14,Commerce,Workshop,Skyview,Central Block,250,2026-11-17,9,11,184,187,Basic Mic + Screen,7.8,Completed
+EVT-1139,Psychology Hackathon #9,Psychology,Hackathon,Skyview,Central Block,250,2026-11-17,11,15,185,168,Standard AV + Projector,15.4,Completed
+EVT-1140,Management Hackathon #13,Management,Hackathon,Skyview,Central Block,250,2026-11-19,14,17,194,0,Basic Mic + Screen,11.2,Scheduled
+EVT-1141,Student Cultural Audition #8,Student Council,Cultural Audition,KE Auditorium,Block IV,500,2026-11-19,11,13,230,0,Full Sound + LED Wall,14.5,Scheduled
+EVT-1142,Media Workshop #7,Media Studies,Workshop,Panel Room 2,Block II,100,2026-11-22,10,12,56,0,Basic Mic + Screen,2.8,Scheduled
+EVT-1143,Computer Hackathon #12,Computer Science,Hackathon,Assembly Hall,Block I,300,2026-11-23,14,18,234,0,Basic Mic + Screen,19.0,Scheduled
+EVT-1144,Student Guest Lecture #2,Student Council,Guest Lecture,Assembly Hall,Block I,300,2026-11-24,9,11,250,0,Basic Mic + Screen,9.7,Scheduled
+EVT-1145,Psychology Hackathon #5,Psychology,Hackathon,Skyview,Central Block,250,2026-11-25,11,13,160,0,Standard AV + Projector,7.4,Scheduled
+EVT-1146,Computer Workshop #7,Computer Science,Workshop,Panel Room 2,Block II,100,2026-11-29,13,19,54,0,Basic Mic + Screen,9.8,Scheduled
+EVT-1147,Law Cultural Audition #4,Law,Cultural Audition,Main Auditorium,Audi Block,800,2026-11-29,15,17,531,0,Full Sound + LED Wall,24.4,Scheduled
+EVT-1148,Management Panel Discussion #8,Management,Panel Discussion,Skyview,Central Block,250,2026-11-30,9,15,146,0,Standard AV + Projector,21.7,Scheduled
+EVT-1149,Student Seminar #12,Student Council,Seminar,Assembly Hall,Block I,300,2026-11-30,11,15,205,0,Standard AV + Projector,17.8,Scheduled
+EVT-1150,Media National Fest #11,Media Studies,National Fest,Main Auditorium,Audi Block,800,2026-11-30,11,17,467,0,Standard AV + Projector,70.3,Scheduled
