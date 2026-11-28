@@ -40,29 +40,6 @@ df["Utilization_Pct"] = np.round((df["Expected_Footfall"] / df["Venue_Capacity"]
 # -----------------------------------------------------------------------
 # Sidebar Navigation & Multi-Control Filters
 # -----------------------------------------------------------------------
-all_venues = sorted(df["Venue"].unique().tolist())
-all_depts = sorted(df["Department"].unique().tolist())
-all_statuses = sorted(df["Booking_Status"].unique().tolist())
-
-# Initialize filter defaults in session state
-if "filter_period" not in st.session_state:
-    st.session_state.filter_period = "All"
-if "filter_venues" not in st.session_state:
-    st.session_state.filter_venues = all_venues
-if "filter_depts" not in st.session_state:
-    st.session_state.filter_depts = all_depts
-if "filter_statuses" not in st.session_state:
-    st.session_state.filter_statuses = all_statuses
-if "filter_util" not in st.session_state:
-    st.session_state.filter_util = (0, 100)
-
-def reset_filters():
-    st.session_state.filter_period = "All"
-    st.session_state.filter_venues = all_venues
-    st.session_state.filter_depts = all_depts
-    st.session_state.filter_statuses = all_statuses
-    st.session_state.filter_util = (0, 100)
-
 with st.sidebar:
     st.markdown("### CHRIST Venue Console")
     st.caption("Central Campus Auditorium, Seminar Hall & Event Clash Analytics")
@@ -72,17 +49,33 @@ with st.sidebar:
     period_choice = st.segmented_control(
         "Month Filter",
         options=period_options,
-        key="filter_period"
+        default="All"
     )
 
-    selected_venues = st.multiselect("Campus Venues", options=all_venues, key="filter_venues")
-    selected_depts = st.multiselect("Organizing Departments", options=all_depts, key="filter_depts")
-    selected_statuses = st.multiselect("Booking Status", options=all_statuses, key="filter_statuses")
-    util_range = st.slider("Hall Utilization Range (%)", 0, 100, key="filter_util")
+    all_venues = sorted(df["Venue"].unique().tolist())
+    selected_venues = st.multiselect("Campus Venues", options=all_venues, default=all_venues)
 
-    st.divider()
-    st.button("Reset Filters", on_click=reset_filters, use_container_width=True)
-    
+    all_depts = sorted(df["Department"].unique().tolist())
+    selected_depts = st.multiselect("Organizing Departments", options=all_depts, default=all_depts)
+
+    all_statuses = sorted(df["Booking_Status"].unique().tolist())
+    selected_statuses = st.multiselect("Booking Status", options=all_statuses, default=all_statuses)
+
+    util_range = st.slider("Hall Utilization Range (%)", 0, 100, (0, 100))
+
+# Apply Filters using Pandas & NumPy boolean masks
+filtered_df = df[
+    (df["Venue"].isin(selected_venues)) &
+    (df["Department"].isin(selected_depts)) &
+    (df["Booking_Status"].isin(selected_statuses)) &
+    (df["Utilization_Pct"] >= util_range[0]) &
+    (df["Utilization_Pct"] <= util_range[1])
+].copy()
+
+month_map = {"Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11}
+if period_choice in month_map:
+    filtered_df = filtered_df[filtered_df["Date_dt"].dt.month == month_map[period_choice]]
+
 # -----------------------------------------------------------------------
 # Header & 2 Top-Level Tabs (Analytics & Registration)
 # -----------------------------------------------------------------------
